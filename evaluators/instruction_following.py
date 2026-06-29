@@ -17,16 +17,17 @@ class InstructionFollowingEvaluator:
             prompt (str): User prompt.
             generated_output (str): AI-generated output.
 
-       Returns:
-    dict: A dictionary containing the evaluation result,
-    including score, evaluation status, observations,
-    and justification.
+        Returns:
+            dict: A dictionary containing the evaluation result,
+            including score, evaluation status, observations,
+            and justification.
         """
-# TODO: Implement instruction-following evaluation logic.
 
-      return {
-    "score": None,
-    "evaluation": "Pending",
-    "observations": [],
-    "reason": ""
-}
+        # TODO: Implement instruction-following evaluation logic.
+
+        return {
+            "score": None,
+            "evaluation": "Pending",
+            "observations": [],
+            "reason": ""
+        }
